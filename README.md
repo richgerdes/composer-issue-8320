@@ -6,7 +6,8 @@ See https://github.com/composer/composer/issues/8320
 
 ## Reproducing
 
-Run the following commands to see the issue here.
+Run the following commands to see the issue here. These commands are also
+available as `run.sh` in this project.
 
 ```
 composer install
