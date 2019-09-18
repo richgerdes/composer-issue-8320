@@ -1,0 +1,23 @@
+{
+    "name": "roygoldman/composer-issue-8320",
+    "description": "Composer installers error demo",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "GPL-2.0-only",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:roygoldman/composer-installers-discovery.git"
+        }
+    ],
+    "require": {
+        "roygoldman/composer-installers-discovery": "dev-fix-installer-order as 1.0.4",
+        "roygoldman/drupal-project-installers": "^8.0",
+        "drupal/webform": "^5.4"
+    }
+}
