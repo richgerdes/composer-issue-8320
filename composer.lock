@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a5286c574ae0ff5fcb1d299b159fce6",
+    "content-hash": "c678f3bf1b92f73cf6580531dc0a99f2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2152,6 +2152,45 @@
                 "issues": "https://github.com/roygoldman/composer-installers-discovery/issues"
             },
             "time": "2019-09-18T21:13:10+00:00"
+        },
+        {
+            "name": "roygoldman/composer-where",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roygoldman/composer-where.git",
+                "reference": "19272d1499b49d69bb204e2af7eff2da24d3450f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roygoldman/composer-where/zipball/19272d1499b49d69bb204e2af7eff2da24d3450f",
+                "reference": "19272d1499b49d69bb204e2af7eff2da24d3450f",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "RoyGoldman\\ComposerWhere\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "RoyGoldman\\ComposerWhere\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rich Gerdes",
+                    "email": "rich@richgerdes.com"
+                }
+            ],
+            "description": "A composer command to locate a package's installed path.",
+            "time": "2019-09-05T19:50:43+00:00"
         },
         {
             "name": "roygoldman/drupal-project-installers",

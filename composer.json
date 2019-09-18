@@ -18,6 +18,7 @@
     "require": {
         "roygoldman/composer-installers-discovery": "dev-fix-installer-order as 1.0.4",
         "roygoldman/drupal-project-installers": "^8.0",
-        "drupal/webform": "^5.4"
+        "drupal/webform": "^5.4",
+        "roygoldman/composer-where": "^1.0"
     }
 }
